@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5h0028/HFL/v1
+canonical_location: https://kanripo.org/bkk/KR5h0028/HFL/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清金章十二篇
+  date: '2015-08-29 03:02:54.655514'
+  source:
+    repository: kanripo
+    path: KR5h0028
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: HFL
+    label: 【正統道藏・涵芬樓版】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5h0028_000-HFL.yaml, hash: 'sha256:0656750e318fa5d55f4ce2f3a02fbf245aec4d562db8c0e938789647ce53df27'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5h0028_000-HFL.markers.yaml, hash: 'sha256:7b50ff7ca2db3f4cd54ebf1036167405ca84948f1af60bbab12ee0eb95bf4240'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5h0028_HFL_000-001a
+    span:
+    - body
+    - 0
+    - 990
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:5c7b57d714f1af6ae60078c80e8233adabb14f3f405a3b1939ffcd3deb5d12ea

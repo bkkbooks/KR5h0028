@@ -1,0 +1,40 @@
+canonical_identifier: bkk:krp/KR5h0028/ZTDZ/v1
+canonical_location: https://kanripo.org/bkk/KR5h0028/ZTDZ/v1
+canonical_set:
+  identifier: bkk:charset/cjk-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+metadata:
+  title: 上清金章十二篇
+  date: '2015-08-29 03:02:54.655514'
+  source:
+    repository: kanripo
+    path: KR5h0028
+  image_base_urls:
+    SJB: http://img.kanripo.org/daoist/ztdz/
+    WYG: http://img.kanripo.org/general/skqs/wyg/
+    YP-C: http://img.kanripo.org/daoist/dzjy/JY-C/
+    HFL: http://img.kanripo.org/daoist/ztdz/
+    CK-KZ: http://img.kanripo.org/daoist/dzjy/CK-KZ/
+  edition:
+    short: ZTDZ
+    label: 【正統道藏・三家本】
+entity_encoding:
+  identifier: bkk:encoding/kanripo-pua-v1
+  hash: sha256:0000000000000000000000000000000000000000000000000000000000000000
+assets:
+  parts:
+  - {seq: 0, filename: KR5h0028_000-ZTDZ.yaml, hash: 'sha256:3e9bbcad0e52d9e101ab2fd82058e709a72d0c79f246219a04f95a6631c6058f'}
+  markers:
+  - {seq: 0, role: markers, filename: assets/KR5h0028_000-ZTDZ.markers.yaml, hash: 'sha256:1ed3c8c6ba0f6d838b8245b85a69635ca9c65e9100f55ae89791edf8705a545f'}
+table_of_contents:
+- ref:
+    seq: 0
+    marker_id: KR5h0028_SJB_000-340780b
+    span:
+    - body
+    - 0
+    - 990
+  label: juan 000
+  type: section
+  level: 1
+hash: sha256:f08ea6495690d9400a73e2795ff5af01a178c569df3ee6d05a65229f27b6a5eb
